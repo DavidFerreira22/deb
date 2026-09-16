@@ -16,5 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Ze
-      run: echo zeeeeeeeeeeeeeeeeeeeeeee
+      run: |
+        ls -all
+        echo zeeeeeeeeeeeeeeeeeeeeeee
 
